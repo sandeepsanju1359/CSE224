@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".PickerEx">
+
+    <ImageView
+        android:id="@+id/imgV"
+        android:layout_width="335dp"
+        android:layout_height="404dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="179dp"
+        tools:srcCompat="@tools:sample/avatars"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BtnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgV"
+        android:text="Click Here"></Button>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Image"
+        android:layout_below="@+id/BtnClick"
+        android:id="@+id/BtnSend"></Button>
+
+</RelativeLayout>

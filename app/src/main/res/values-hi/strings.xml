@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">स्थानीयकरणex1</string>
+    <string name="wel_mess">मेरे ऐप में आपका स्वागत है</string>
+    <string name="bt_mess">लॉग इन करने के लिए यहां क्लिक करें</string>
+</resources>

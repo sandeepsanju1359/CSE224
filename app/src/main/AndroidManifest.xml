@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstApp">
+        <activity
+            android:name=".CustomisedOptionMenu"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActionBarEx"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".OptionMenuEx"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ContextMenuEx"
+            android:exported="true" />
+        <activity
+            android:name=".ListViewEx"
+            android:exported="true" />
+        <activity
+            android:name=".PopUpMenuEx"
+            android:exported="true" />
+        <activity
+            android:name=".CustomAlertDialogueEx"
+            android:exported="true" />
+        <activity
+            android:name=".AnimationExample"
+            android:exported="true" />
+        <activity
+            android:name=".AlertDialogueEx"
+            android:exported="true" />
+        <activity
+            android:name=".ConstraintLayoutEx"
+            android:exported="true" />
+        <activity
+            android:name=".AppPermission"
+            android:exported="true" />
+        <activity
+            android:name=".ImageButton"
+            android:exported="false" />
+        <activity
+            android:name=".SendImgEx"
+            android:exported="false" />
+        <activity
+            android:name=".IncDecEx"
+            android:exported="true" />
+        <activity
+            android:name=".AppchooserEximg"
+            android:exported="true" />
+        <activity
+            android:name=".AppChooserEx"
+            android:exported="true" />
+        <activity
+            android:name=".DynamicBtnEx"
+            android:exported="true" />
+        <activity
+            android:name=".ExpIntCal2"
+            android:exported="true" />
+        <activity
+            android:name=".ExpIntCal1"
+            android:exported="true" />
+        <activity
+            android:name=".ExplicitIntentDataTransferSecond"
+            android:exported="true" />
+        <activity
+            android:name=".ExplicitIntentDataTransferFirst"
+            android:exported="true" />
+        <activity
+            android:name=".ImplicitIntentEx"
+            android:exported="true" />
+        <activity
+            android:name=".PickerEx"
+            android:exported="true" />
+        <activity
+            android:name=".ExplicitIntentExSecond"
+            android:exported="true" />
+        <activity
+            android:name=".ExplicitIntentExFirst"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".GridlayouExample"
+            android:exported="true" />
+        <activity
+            android:name=".ImageviewExample"
+            android:exported="true" />
+        <activity
+            android:name=".SnackBar"
+            android:exported="true" />
+        <activity
+            android:name=".CheckBoxEx"
+            android:exported="true" />
+        <activity
+            android:name=".Test1"
+            android:exported="true" />
+        <activity
+            android:name=".Test2"
+            android:exported="true" />
+        <activity
+            android:name=".AndroidLifeCycle"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

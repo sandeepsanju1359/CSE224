@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppPermission">
+
+    <Button
+        android:id="@+id/CperBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAM Permission"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="115dp"/>
+
+    <ImageView
+        android:id="@+id/imgcam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/CperBtn"
+        />
+</RelativeLayout>

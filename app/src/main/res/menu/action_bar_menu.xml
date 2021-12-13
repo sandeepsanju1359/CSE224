@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ab_search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ab_add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="Add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ab_reset"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        android:title="Reset"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ab_about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="About"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ab_exit"
+        android:title="Exit"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ab_none"
+        android:title="None"/>
+
+</menu>

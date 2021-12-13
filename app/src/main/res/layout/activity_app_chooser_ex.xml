@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppChooserEx">
+
+    <Button
+        android:id="@+id/chBtn1"
+        android:layout_width="213dp"
+        android:layout_height="43dp"
+        android:text="App Chooser 1"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/chBtn2"
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="App Chooser 2"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="504dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
